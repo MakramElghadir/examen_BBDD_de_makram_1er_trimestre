@@ -1,4 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.left{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.participantes {
+    flex-direction: column;
+}
+
+.chooseer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
 
 body {
     background-color: gray;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
