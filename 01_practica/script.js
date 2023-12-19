@@ -8,7 +8,7 @@ function añadir() {
     console.log(listeInput)
     lastValue= liste[liste.length.value]
     document.createElement("p")
-    document.querySelector("#participantes").innerHTML = liste
+    document.querySelector("#participantes").innerHTML = "liste"
 }
 
 function borrar() {
