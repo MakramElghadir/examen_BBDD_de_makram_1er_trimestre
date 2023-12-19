@@ -8,16 +8,6 @@ Fecha: Martes 19 de deciembre 2023
 
 ## Inicio
 
-Para empezar, crea un fork de este repositorio, clónalo en tu ordenador y abre el proyecto con VSCode.
+El programo desallorado aqui es un creador de lista de participantes .Este programo permite de escribir una lista de participante y eligir un nombre aleatorio de la lista. Hay tambien la possibilidad de borrar esta lista para reescribir la de nuevo. 
 
-Edita este fichero README.md con tu nombre y la fecha de hoy, una vez hagas un commit inicial, estas listo para empezar!
-
-El examen está dividido en 3 partes, cada una de ellas en una carpeta diferente:
-
-- `00_teoria`: Varias preguntas de teoría.
-- `01_practica`: Ejercicio con html+js.
-- `02_docs`: Documentación del ejercicio realizado.
-
-Es importante que realizes primero la parte de teoría, aunque las partes de práctica y documentación se pueden realizar como quieras.
-
-Cada directorio tiene instrucciones en su interior, léelas con atención, y si tienes alguna duda, preguntame!
+Este programo se fonctiona a traves el guardando de la palabra escribida a un array. Un array que se muestra baja el titulo "participantes". Cada tiempo el utlizador añado una otra palabra, la lista se muestra un otra vez con la añada. Quando el utilizador quiere eligir un nombre de manera aleatoria, simple debe cliquar el button "sortear" para que una palabra del array se muestra baja los butones. Finalmente, si el utilizador quiere borrar la liste, simple necessita de cliquar el button borrar y ver el programo transformar la lista en un array vido.

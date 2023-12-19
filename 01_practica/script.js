@@ -1,6 +1,7 @@
 console.log("script.js online")
 var liste = []
 
+
 function añadir() {
     console.log("input on añadir working")
     var listeInput = document.querySelector("#input").value
@@ -8,7 +9,7 @@ function añadir() {
     console.log(listeInput)
     lastValue= liste[liste.length.value]
     document.createElement("p")
-    document.querySelector("#participantes").innerHTML = "liste"
+    document.querySelector("#participantes").innerHTML = liste
 }
 
 function borrar() {
