@@ -1,6 +1,12 @@
 console.log("script.js online")
-var liste = []
-
+var liste = JSON.parse(localStorage.getItem("liste"))
+if(liste === null) {
+    liste = []
+} else {
+    for(var i = 0; i < liste.length; i++) {
+        document.querySelector("#participantes").innerHTML += liste[i] + "<br>"
+    }
+}
 
 function añadir() {
     console.log("input on añadir working")
@@ -29,6 +35,5 @@ function sortear() {
     else {
         console.log(liste[randomnumber])
         document.querySelector("#sorteado").innerHTML = liste[randomnumber]
-
     }
 }
